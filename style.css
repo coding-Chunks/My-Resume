@@ -160,19 +160,19 @@ a {
 .profile .list-titles {
   float: left;
   text-align: left;
-  font-weight: 600;
+  font-weight: 1000;
   width: 40%;
-  color: #4a4f51;
+  color: #111112;
 }
 .profile .list-content {
   float: left;
   width: 60%;
   text-align: left;
-  font-weight: 300;
+  font-weight: 600;
 }
 .profile .contact-presentation {
   text-align: left;
-  font-weight: 300;
+  font-weight: 1000;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -195,7 +195,7 @@ a {
   left: 0;
 }
 .profile .st0, .profile .st1 {
-  fill: #66cc99;
+  fill: #0f1211;
 }
 
 .experience {
@@ -219,7 +219,7 @@ a {
   text-transform: uppercase;
   font-size: 1.2em;
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 1000;
 }
 .experience .company-wrapper {
   width: 30%;
@@ -345,6 +345,11 @@ a {
   -webkit-animation: skill_6 0.6s ease;
           animation: skill_6 0.6s ease;
 }
+.section-wrapper .skill-percentage:nth-child(8)::before {
+  width: 60%;
+  -webkit-animation: skill_4 0.6s ease;
+          animation: skill_4 0.6s ease;
+}
 
 @-webkit-keyframes skill_1 {
   from {
@@ -457,5 +462,21 @@ a {
   }
   to {
     width: 70%;
+  }
+}
+@-webkit-keyframes skill_8 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+@keyframes skill_8 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
   }
 }
